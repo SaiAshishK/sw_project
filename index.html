@@ -3,6 +3,19 @@
     <head>
         <title>My Webpage</title>
         <style>
+
+            @media (min-width: 700px) {
+                h1::before {
+                    content: "Welcome to Wheels4U. All the Information about car manufacturers in the Indian market, and their newest products";
+                }
+            }
+
+            @media (max-width: 699px) {
+                h1::before {
+                    content: "Welcome to Wheels4U";
+                }
+            }
+
             body {
                 background-image: url('data/wall5.jpg');
                 background-size: cover;
@@ -57,8 +70,9 @@
                 text-align: center;
             }
 
-            form {
-            text-align: center;
+            #dum {
+                text-align: center;
+                height: 200px;
             }
         </style>
     </head>
@@ -66,7 +80,7 @@
         
         <p><img src = "data/ss.png" height = "80"></p>
 
-        <h1>Welcome to Wheels4U. All the Information about car manufacturers in the Indian market, and their newest products</h1>
+        <h1></h1>
 
         <div class="grid">
             <div class="grid-item"><img src="grid/1.jpg"></div>
@@ -91,13 +105,10 @@
 
        <h3>Please login to Continue</h3>
        <form action="new.html">
-           <div >
+           <div id = dum>
                <input name = "First name" type = "text" placeholder = "First Name">
-               <h1></h1>
                <input name = "Last name" type = "text" placeholder="Last Name">
-               <h1></h1>
                <input name = "Number" type = "tel" placeholder="Number">
-               <h1></h1>
                <button>Submit</button>
            </div>
        </form>
