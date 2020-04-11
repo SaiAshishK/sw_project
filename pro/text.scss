@@ -1,0 +1,52 @@
+$color:whitesmoke;
+
+.h_body {
+	background-image: url("data/wall5.jpg");
+	background-size: cover;
+	p {
+		text-align: center;
+		margin: 50px;
+	}
+	h3 {
+		color: $color;
+		font-weight: bold;
+	}
+	ol {
+		>li {
+			color: cyan;
+			margin: 10px;
+		}
+	}
+	a {
+		&::before {
+			content: "\2a65 ";
+			font-weight: bold;
+			color: burlywood;
+		}
+		color: $color;
+	}
+	.button {
+		background-color: $color;
+		border: none;
+		color: black;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 40px 2px 50px 400px;
+		cursor: pointer;
+		&:hover {
+			background-color: palegreen;
+		}
+	}
+	h1 {
+		color: beige;
+		text-align: center;
+		font-size: 60px;
+	}
+}
+.h_bodyol {
+	color: $color;
+	margin: 20px;
+}

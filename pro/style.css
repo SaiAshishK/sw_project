@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.h_body {
+  background-image: url("data/wall5.jpg");
+  background-size: cover;
+}
+.h_body p {
+  text-align: center;
+  margin: 50px;
+}
+.h_body h3 {
+  color: whitesmoke;
+  font-weight: bold;
+}
+.h_body ol > li {
+  color: cyan;
+  margin: 10px;
+}
+.h_body a {
+  color: whitesmoke;
+}
+.h_body a::before {
+  content: "⩥";
+  font-weight: bold;
+  color: burlywood;
+}
+.h_body .button {
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 40px 2px 50px 400px;
+  cursor: pointer;
+}
+.h_body .button:hover {
+  background-color: palegreen;
+}
+.h_body h1 {
+  color: beige;
+  text-align: center;
+  font-size: 60px;
+}
+
+.h_bodyol {
+  color: whitesmoke;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
