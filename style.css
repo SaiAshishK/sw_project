@@ -19,7 +19,6 @@
   color: whitesmoke;
 }
 .h_body a::before {
-  content: "⩥";
   font-weight: bold;
   color: burlywood;
 }
@@ -48,5 +47,11 @@
   color: whitesmoke;
   margin: 20px;
 }
+
+.h_body table,th,td {
+  border: 2px double whitesmoke;
+  text-align: center;
+  padding: 2px;
+  border-collapse: collapse;
 
 /*# sourceMappingURL=style.css.map */
